@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "activityringsshareddto",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/JavitoRoGo/ActivityRingsSharedDTO",
+      "state" : {
+        "branch" : "main",
+        "revision" : "5739d8d2409d91385736f14edbe68d22368f895d"
+      }
+    }
+  ],
+  "version" : 2
+}

@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		445F70522B22011B00786CEB /* RingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445F70512B22011B00786CEB /* RingView.swift */; };
+		445F70542B2201EE00786CEB /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445F70532B2201EE00786CEB /* PreviewData.swift */; };
+		445F70572B221E0C00786CEB /* ActivityRing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445F70562B221E0C00786CEB /* ActivityRing.swift */; };
+		445F705B2B2225F500786CEB /* ActivityRingTip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445F705A2B2225F500786CEB /* ActivityRingTip.swift */; };
+		445F705D2B2226F800786CEB /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445F705C2B2226F800786CEB /* ListView.swift */; };
+		445F705F2B227B4C00786CEB /* AddNewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 445F705E2B227B4C00786CEB /* AddNewView.swift */; };
+		445F70622B2287A700786CEB /* ActivityRingsSharedDTO in Frameworks */ = {isa = PBXBuildFile; productRef = 445F70612B2287A700786CEB /* ActivityRingsSharedDTO */; };
+		448911722B20D814008585D3 /* MyActivityRingsWithServerSideApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448911712B20D814008585D3 /* MyActivityRingsWithServerSideApp.swift */; };
+		448911742B20D814008585D3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448911732B20D814008585D3 /* ContentView.swift */; };
+		448911762B20D815008585D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 448911752B20D815008585D3 /* Assets.xcassets */; };
+		448911792B20D815008585D3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 448911782B20D815008585D3 /* Preview Assets.xcassets */; };
+		448911812B20D9B5008585D3 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448911802B20D9B4008585D3 /* MainView.swift */; };
+		448911852B20DCC4008585D3 /* RingData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448911842B20DCC4008585D3 /* RingData.swift */; };
+		448911882B20DD86008585D3 /* RingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448911872B20DD86008585D3 /* RingsViewModel.swift */; };
+		4489118A2B212676008585D3 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 448911892B212676008585D3 /* HTTPClient.swift */; };
+		4489118C2B212BB0008585D3 /* CustomURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4489118B2B212BB0008585D3 /* CustomURL.swift */; };
+		4489118F2B214D75008585D3 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4489118E2B214D75008585D3 /* Extensions.swift */; };
+		44AC2F592B234CEA00F46BBA /* AllListedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AC2F582B234CEA00F46BBA /* AllListedView.swift */; };
+		44AC2F5C2B23832E00F46BBA /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AC2F5B2B23832E00F46BBA /* ChartView.swift */; };
+		44AC2F5E2B23C95800F46BBA /* DateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AC2F5D2B23C95800F46BBA /* DateHelper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		445F70512B22011B00786CEB /* RingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingView.swift; sourceTree = "<group>"; };
+		445F70532B2201EE00786CEB /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
+		445F70562B221E0C00786CEB /* ActivityRing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityRing.swift; sourceTree = "<group>"; };
+		445F705A2B2225F500786CEB /* ActivityRingTip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityRingTip.swift; sourceTree = "<group>"; };
+		445F705C2B2226F800786CEB /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		445F705E2B227B4C00786CEB /* AddNewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewView.swift; sourceTree = "<group>"; };
+		4489116E2B20D814008585D3 /* MyActivityRingsWithServerSide.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyActivityRingsWithServerSide.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		448911712B20D814008585D3 /* MyActivityRingsWithServerSideApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyActivityRingsWithServerSideApp.swift; sourceTree = "<group>"; };
+		448911732B20D814008585D3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		448911752B20D815008585D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		448911782B20D815008585D3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		448911802B20D9B4008585D3 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		448911842B20DCC4008585D3 /* RingData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingData.swift; sourceTree = "<group>"; };
+		448911872B20DD86008585D3 /* RingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RingsViewModel.swift; sourceTree = "<group>"; };
+		448911892B212676008585D3 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		4489118B2B212BB0008585D3 /* CustomURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomURL.swift; sourceTree = "<group>"; };
+		4489118E2B214D75008585D3 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		44AC2F582B234CEA00F46BBA /* AllListedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllListedView.swift; sourceTree = "<group>"; };
+		44AC2F5B2B23832E00F46BBA /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		44AC2F5D2B23C95800F46BBA /* DateHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DateHelper.swift; path = ../../../DateHelper.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4489116B2B20D814008585D3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				445F70622B2287A700786CEB /* ActivityRingsSharedDTO in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		445F70552B221DE100786CEB /* RingView */ = {
+			isa = PBXGroup;
+			children = (
+				445F70512B22011B00786CEB /* RingView.swift */,
+				445F70562B221E0C00786CEB /* ActivityRing.swift */,
+				445F705A2B2225F500786CEB /* ActivityRingTip.swift */,
+			);
+			name = RingView;
+			sourceTree = "<group>";
+		};
+		448911652B20D814008585D3 = {
+			isa = PBXGroup;
+			children = (
+				448911702B20D814008585D3 /* MyActivityRingsWithServerSide */,
+				4489116F2B20D814008585D3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4489116F2B20D814008585D3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4489116E2B20D814008585D3 /* MyActivityRingsWithServerSide.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		448911702B20D814008585D3 /* MyActivityRingsWithServerSide */ = {
+			isa = PBXGroup;
+			children = (
+				448911712B20D814008585D3 /* MyActivityRingsWithServerSideApp.swift */,
+				448911732B20D814008585D3 /* ContentView.swift */,
+				448911862B20DD5F008585D3 /* ViewModel */,
+				448911832B20DA91008585D3 /* Model */,
+				4489117F2B20D984008585D3 /* Views */,
+				4489118D2B214D61008585D3 /* Helpers */,
+				448911752B20D815008585D3 /* Assets.xcassets */,
+				448911772B20D815008585D3 /* Preview Content */,
+			);
+			path = MyActivityRingsWithServerSide;
+			sourceTree = "<group>";
+		};
+		448911772B20D815008585D3 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				448911782B20D815008585D3 /* Preview Assets.xcassets */,
+				445F70532B2201EE00786CEB /* PreviewData.swift */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4489117F2B20D984008585D3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				448911822B20D9CA008585D3 /* MainView */,
+				44AC2F5A2B23830400F46BBA /* ChartView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		448911822B20D9CA008585D3 /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				448911802B20D9B4008585D3 /* MainView.swift */,
+				445F70552B221DE100786CEB /* RingView */,
+				445F705C2B2226F800786CEB /* ListView.swift */,
+				445F705E2B227B4C00786CEB /* AddNewView.swift */,
+				44AC2F582B234CEA00F46BBA /* AllListedView.swift */,
+			);
+			name = MainView;
+			sourceTree = "<group>";
+		};
+		448911832B20DA91008585D3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				448911842B20DCC4008585D3 /* RingData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		448911862B20DD5F008585D3 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				448911872B20DD86008585D3 /* RingsViewModel.swift */,
+				448911892B212676008585D3 /* HTTPClient.swift */,
+				4489118B2B212BB0008585D3 /* CustomURL.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4489118D2B214D61008585D3 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				4489118E2B214D75008585D3 /* Extensions.swift */,
+				44AC2F5D2B23C95800F46BBA /* DateHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		44AC2F5A2B23830400F46BBA /* ChartView */ = {
+			isa = PBXGroup;
+			children = (
+				44AC2F5B2B23832E00F46BBA /* ChartView.swift */,
+			);
+			name = ChartView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4489116D2B20D814008585D3 /* MyActivityRingsWithServerSide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4489117C2B20D815008585D3 /* Build configuration list for PBXNativeTarget "MyActivityRingsWithServerSide" */;
+			buildPhases = (
+				4489116A2B20D814008585D3 /* Sources */,
+				4489116B2B20D814008585D3 /* Frameworks */,
+				4489116C2B20D814008585D3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyActivityRingsWithServerSide;
+			packageProductDependencies = (
+				445F70612B2287A700786CEB /* ActivityRingsSharedDTO */,
+			);
+			productName = MyActivityRingsWithServerSide;
+			productReference = 4489116E2B20D814008585D3 /* MyActivityRingsWithServerSide.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		448911662B20D814008585D3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					4489116D2B20D814008585D3 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 448911692B20D814008585D3 /* Build configuration list for PBXProject "MyActivityRingsWithServerSide" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 448911652B20D814008585D3;
+			packageReferences = (
+				445F70602B2287A700786CEB /* XCRemoteSwiftPackageReference "ActivityRingsSharedDTO" */,
+			);
+			productRefGroup = 4489116F2B20D814008585D3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4489116D2B20D814008585D3 /* MyActivityRingsWithServerSide */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4489116C2B20D814008585D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				448911792B20D815008585D3 /* Preview Assets.xcassets in Resources */,
+				448911762B20D815008585D3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4489116A2B20D814008585D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				445F70542B2201EE00786CEB /* PreviewData.swift in Sources */,
+				445F705D2B2226F800786CEB /* ListView.swift in Sources */,
+				448911882B20DD86008585D3 /* RingsViewModel.swift in Sources */,
+				448911852B20DCC4008585D3 /* RingData.swift in Sources */,
+				4489118A2B212676008585D3 /* HTTPClient.swift in Sources */,
+				445F70522B22011B00786CEB /* RingView.swift in Sources */,
+				4489118F2B214D75008585D3 /* Extensions.swift in Sources */,
+				44AC2F5C2B23832E00F46BBA /* ChartView.swift in Sources */,
+				448911742B20D814008585D3 /* ContentView.swift in Sources */,
+				44AC2F5E2B23C95800F46BBA /* DateHelper.swift in Sources */,
+				448911812B20D9B5008585D3 /* MainView.swift in Sources */,
+				445F705F2B227B4C00786CEB /* AddNewView.swift in Sources */,
+				4489118C2B212BB0008585D3 /* CustomURL.swift in Sources */,
+				44AC2F592B234CEA00F46BBA /* AllListedView.swift in Sources */,
+				448911722B20D814008585D3 /* MyActivityRingsWithServerSideApp.swift in Sources */,
+				445F705B2B2225F500786CEB /* ActivityRingTip.swift in Sources */,
+				445F70572B221E0C00786CEB /* ActivityRing.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4489117A2B20D815008585D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4489117B2B20D815008585D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4489117D2B20D815008585D3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MyActivityRingsWithServerSide/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JRG79.MyActivityRingsWithServerSide;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		4489117E2B20D815008585D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MyActivityRingsWithServerSide/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JRG79.MyActivityRingsWithServerSide;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		448911692B20D814008585D3 /* Build configuration list for PBXProject "MyActivityRingsWithServerSide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4489117A2B20D815008585D3 /* Debug */,
+				4489117B2B20D815008585D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4489117C2B20D815008585D3 /* Build configuration list for PBXNativeTarget "MyActivityRingsWithServerSide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4489117D2B20D815008585D3 /* Debug */,
+				4489117E2B20D815008585D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		445F70602B2287A700786CEB /* XCRemoteSwiftPackageReference "ActivityRingsSharedDTO" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/JavitoRoGo/ActivityRingsSharedDTO";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		445F70612B2287A700786CEB /* ActivityRingsSharedDTO */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 445F70602B2287A700786CEB /* XCRemoteSwiftPackageReference "ActivityRingsSharedDTO" */;
+			productName = ActivityRingsSharedDTO;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 448911662B20D814008585D3 /* Project object */;
+}
